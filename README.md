@@ -6,7 +6,7 @@ This is a template repository: you can use it to create your own repository, cop
 
 To create your own repository, find the button "Use this template" above the file list and click it. You will be asked to give your repo a name (you can also use the name of the template, as the new repo will be created in your own GitHub account). You can also customise your repositories with the same options as if you were creating a new repository from scratch.
 
-For detailed instructions on creating a template (including screenshots) please check out the GitHub docs.
+For detailed instructions on creating a template (including screenshots) please check out the [Github docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 After you have created your own repository, you are ready to get started with the next steps below!
 
