@@ -2,31 +2,28 @@
 
 ## Instructions
 
-This is a template repository:
-It means that you can create your own repository from this template with the same files and folder structure.
+This is a template repository: you can use it to create your own repository, copying the files and folder structure from this template.
 
-To create your own repository find the button "Use this template" above the file list and click it.
-You will be asked to give your repo a name (but you can also use the name of the template, as the new repo will be created in your own Github account).
-You can also chose from the same options as if you were creating a new repository from scratch.
+To create your own repository, find the button "Use this template" above the file list and click it. You will be asked to give your repo a name (you can also use the name of the template, as the new repo will be created in your own GitHub account). You can also customise your repositories with the same options as if you were creating a new repository from scratch.
 
-For detailed instructions with screen shots check out the [Github docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+For detailed instructions on creating a template (including screenshots) please check out the GitHub docs.
 
 After you have created your own repository, you are ready to get started with the next steps below!
 
+Selenium works with a range of different browsers. We have set-up this project to support Chrome and Firefox.
 
-### Set up Webdriver for Selenium
+### Set up Webdriver for Selenium in Chrome
 
 To allow your application to control the browser you need to have browser-specific WebDriver binaries installed.
 Go to the [Downloads Page for Chromedriver](https://chromedriver.chromium.org/downloads) and select the appropriate version for your Chrome Installation and Operating System.
 
-Download the right version of Chromedriver and move it to the `webdriver` folder of this project.
+Download the correct version of Chromedriver and move it to the `webdriver` folder of this project.
 This is where the application code will look for the driver.
 
 
-#### Using Firefox instead of Chrome
+#### Set up Webdriver for Selenium in Firefox
 
 **This won't work on Windows unfortunately**
-Selenium works with a range of different browsers. In case you don't have Chrome installed, the project is also set up to support Firefox:
 
 Go to the [Downloads Page for Geckodriver](https://github.com/mozilla/geckodriver/releases) and select the latest versin for your Operating System.
 
@@ -52,7 +49,7 @@ If you are using the default Chrome, run the following command:
 npm run run:chrome
 ```
 
-If your are using Firefox instead:
+If you are using Firefox, run the following command:
 ```
 npm run run:firefox
 ```
@@ -89,10 +86,10 @@ Go to the Actions tab on Github to see the result of the run.
 ## Add your own tests!
 
 Create new files in the `/tests` folder for your own test cases.
-You can use the existing test as the basis.
+You can use the existing test as the basis for future tests.
 
 To learn more about the commands to control the Browser with selenium, check the [Javascript docs for Selenium](https://www.selenium.dev/selenium/docs/api/javascript/index.html).
-There is also a Tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
+There is also a useful tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
 
 A good starting point are the available commands on the [WebDriver class](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/index_exports_WebDriver.html) - this is what the `setupBrowser` utility function returns.
 
